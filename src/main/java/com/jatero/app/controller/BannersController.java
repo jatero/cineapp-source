@@ -38,6 +38,7 @@ public class BannersController {
 		return "banners/listBanners";
 	}
 	
+	
 	/**
 	 * Metodo para mostrar el formulario para crear un nuevo banner
 	 * @return
@@ -46,6 +47,7 @@ public class BannersController {
 	public String crear(@ModelAttribute Banner banner) {
 		return "banners/formBanner";
 	}
+	
 	
 	/**
 	 * Metodo para guardar el objeto de modelo de tipo banner
